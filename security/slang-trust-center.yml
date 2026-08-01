@@ -1,0 +1,17 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.slang.ai
+url: https://app.drata.com/trust/b282753a-0e51-4d25-83de-5e3e26540256
+certifications:
+- SOC 2 Type II
+evidence:
+- source: https://www.slang.ai
+  kind: page-text
+  detail: '"SOC 2 Type II" stated in the site footer/trust section'
+- source: https://www.slang.ai/integrations
+  kind: badge-image
+  detail: SOC compliance mark (SOC_Marks) displayed on the integrations page
+- source: https://app.drata.com/trust/b282753a-0e51-4d25-83de-5e3e26540256
+  kind: trust-center
+  detail: Slang publishes a Drata-hosted trust center linked from the homepage

@@ -1,9 +1,28 @@
 aid: slang
 name: Slang
-description: 'Slang is a company surfaced as a portfolio company of homebrew, techstars and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Slang (Slang.ai) is a New York-based voice AI company building "the AI
+  Superhost for Restaurants" — a 24/7 AI phone concierge that answers restaurant
+  calls, responds to guest questions, captures missed calls, and routes callers
+  to reservations and ordering. It integrates with hospitality platforms
+  including OpenTable, SevenRooms, Yelp, Olo, Tripleseat, and Google. Backed by
+  Homebrew and Techstars, Slang is SOC 2 Type II compliant and publishes a
+  Drata-hosted trust center. Slang is a product/SaaS company; as of this
+  enrichment pass it exposes no public developer API, SDKs, OpenAPI, or
+  developer documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/slang/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/61aa7a8f9272d51e4f71a7c9/67fd9d881cd2fc29c1798dc4_Slang.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Voice AI
+- Conversational AI
+- Restaurants
+- Hospitality
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.slang.ai
+- type: About
+  url: https://www.slang.ai/about
+- type: Pricing
+  url: https://www.slang.ai/pricing
+- type: Blog
+  url: https://www.slang.ai/blog
+- type: Support
+  url: https://portal.usepylon.com/slang-ai/forms/support-ticket
+- type: TermsOfService
+  url: https://www.slang.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.slang.ai/privacy-policy
+- type: TrustCenter
+  url: https://app.drata.com/trust/b282753a-0e51-4d25-83de-5e3e26540256
+- type: Compliance
+  url: https://app.drata.com/trust/b282753a-0e51-4d25-83de-5e3e26540256
+- type: DomainSecurity
+  url: security/slang-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
